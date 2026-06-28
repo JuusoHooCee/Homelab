@@ -1,1 +1,4 @@
-Portainer setup will be here
+Heres portainer related setup and issues.
+
+
+...
