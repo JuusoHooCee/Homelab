@@ -1,6 +1,31 @@
 # Homelab
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-A personal homelab built for learning and self-hosting. This repository documents the setup, configuration, and troubleshooting of my homelab infrastructure — both as a personal reference and for anyone interested in building something similar.
+A personal homelab built for learning, experimentation and self-hosting. 
+
+This repository documents the setup, configuration, and troubleshooting of my homelab infrastructure — both as a personal knowledge base and as a way to share real-world learning (including failures).
+
+---
+
+## Highlights
+
+- Local AI agent system using Ollama + Open WebUI + n8n
+- LLM-powered command execution via workflow automation
+- GPU passthrough (GTX 1080) for local AI inference
+- Containerized services managed with Docker + Portainer
+- Secure remote access using Tailscale VPN
+- Real-world debugging of AI reliability and system integration
+
+---
+
+## Why this exists
+
+I built this homelab to move beyond tutorials and actually understand how systems behave in practice — including when they break.
+
+This repository focuses not just on working setups, but also:
+- what failed
+- why it failed
+- how it was fixed
 
 ---
 
@@ -11,7 +36,7 @@ Proxmox VE Host
 ├── Debian VM
 │   ├── Ollama          (local LLM inference)
 │   ├── Open WebUI      (chat interface)
-│   └── n8n             (workflow automation)
+│   └── n8n             (workflow automation / agent ecexution)
 │
 └── LXC Container  (Docker host)
     ├── Portainer       (container management)
@@ -73,6 +98,16 @@ homelab/
 
 ---
 
+## Quick Navigation
+
+- `proxmox/setup.md` — hypervisor setup  
+- `debian-vm/` — AI stack and services  
+- `lxc-containers/` — containerized infrastructure  
+- `network/tailscale.md` — remote access setup  
+- `troubleshooting/` — solved issues and fixes
+
+---
+
 ## Goals
 
 - Learn Linux, Docker, and self-hosting hands-on
@@ -85,9 +120,12 @@ homelab/
 
 🟢 Running: Ollama, Open WebUI, n8n, Portainer, AdGuard Home, Tailscale  
 🟡 Planned: Active Directory lab, Continue.dev + VSCode
+🔴 Experimental: AI agent workflow (command execution reliability issues)
 
 ---
 
 ## Notes
 
-This homelab is a learning environment. Configuration choices prioritize understanding over best practices — things are done the long way on purpose.
+This homelab is a learning environment. 
+Configuration choices prioritize understanding over best practices — things are done the long way on purpose.
+
