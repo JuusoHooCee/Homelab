@@ -1,5 +1,5 @@
 # Homelab
-![Status](https://img.shields.io/badge/status-active-brightgreen) ![Proxmox](https://img.shields.io/badge/Proxmox-VE-orange) ![Linux](https://img.shields.io/badge/Linux-Debian-lightgrey) ![AI](https://img.shields.io/badge/AI-Ollama-green) 
+![Status](https://img.shields.io/badge/status-active-brightgreen) ![Proxmox](https://img.shields.io/badge/Proxmox-VE-orange) ![Linux](https://img.shields.io/badge/Linux-Debian-lightgrey) ![AI](https://img.shields.io/badge/AI-Ollama-green) ![Experimental](https://img.shields.io/badge/status-experimental-orange)
 
 A personal homelab built for learning, experimentation and self-hosting. 
 
