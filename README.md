@@ -119,7 +119,7 @@ homelab/
 ## Status
 
 🟢 Running: Ollama, Open WebUI, n8n, Portainer, AdGuard Home, Tailscale  
-🟡 Planned: Active Directory lab, Continue.dev + VSCode
+🟡 Planned: Active Directory lab, Continue.dev + VSCode   
 🔴 Experimental: AI agent workflow (command execution reliability issues)
 
 ---
